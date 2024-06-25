@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "design-patterns"
+version = "0.1.0"
+description = "Exploring, understanding, and implementing various design patterns"
+authors = ["Nasif Raihan <nasif.raihan78@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

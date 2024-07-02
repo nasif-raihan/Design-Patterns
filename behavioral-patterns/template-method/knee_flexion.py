@@ -1,4 +1,4 @@
-from .exercise_template import ExerciseTemplate
+from exercise_template import ExerciseTemplate
 
 
 class KneeFlexion(ExerciseTemplate):

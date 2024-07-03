@@ -1,5 +1,5 @@
-from .abstract_factory import AbstractFactory
-from .factories import ColorFactory, ShapeFactory
+from abstract_factory import AbstractFactory
+from factories import ColorFactory, ShapeFactory
 
 
 class FactoryProducer:

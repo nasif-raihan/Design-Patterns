@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-from .color import Color
-from .shape import Shape
+from color import Color
+from shape import Shape
 
 
 class AbstractFactory(ABC):
